@@ -1,0 +1,14 @@
+.weather-display {
+    padding: 10px;
+    text-align: center;
+}
+
+.weather-display h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.weather-display h2 {
+    font-weight: lighter;
+    font-size: 18px;
+}
