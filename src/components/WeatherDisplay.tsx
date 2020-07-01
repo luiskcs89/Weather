@@ -1,16 +1,6 @@
-import React, { useState } from 'react';
-import {
-  IonItem,
-  IonLabel,
-  IonContent,
-  IonList,
-  IonInput,
-  IonButton,
-  IonAlert,
-  IonLoading,
-  } from '@ionic/react';
+import React from 'react';
 import './WeatherDisplay.css';
-import { getWeatherByCity, addCity, WeatherResponse } from '../data/weather';
+import { WeatherResponse } from '../data/weather';
 
 interface WeatherDisplayProps {
   weatherResponse: WeatherResponse
